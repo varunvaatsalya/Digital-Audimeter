@@ -15,7 +15,7 @@ function Sidebar() {
     <div>
       <div className="sidebar">
         <div className="icon" onClick={()=>showSidebar(1)}>
-          <Link to="/home" className={active===1 ? "icon-link active" : "icon-link noactive"}>
+          <Link to="/" className={active===1 ? "icon-link active" : "icon-link noactive"}>
             <div className="iconimg">
               <BiIcon.BiSolidDashboard size={49} className="reactIcons" />
             </div>

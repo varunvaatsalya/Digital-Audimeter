@@ -17,7 +17,7 @@ function Main() {
           </div>
           <div className="section">
             <Routes>
-              <Route path="/home" Component={Home} />
+              <Route path="/" Component={Home} />
               <Route path="/instruction" Component={Instruction} />
               <Route path="/consultation" Component={Consultation} />
               <Route path="/support" Component={Support} />

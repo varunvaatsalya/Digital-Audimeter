@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto&display=swap');
+body {
+    font-family: "League Spartan", sans-serif;
+}
+
+
+
+.account-Btn {
+    height: 100vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.profile {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(250, 241, 250);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px gray;
+}
+
+.profile hr {
+    border: 0;
+    background-color: rgb(177, 175, 175);
+    height: 1px;
+    width: 80%;
+}
+
+.userimg>img {
+    width: 80px;
+    border-radius: 40px;
+    box-shadow: 0px 10px 20px #9f9d9f;
+    position: absolute;
+    top: 2.5%;
+    left: 16.8%;
+}
+
+.username {
+    margin-top: 55px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.useragegender {
+    color: gray;
+}
+
+.resulthead {
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.earname {
+    font-size: 18px;
+    color: #37afbc;
+    font-weight: 600;
+}
+
+.earproblem {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.summery {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.earresult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls {
+    height: 350px;
+    width: 300px;
+    background-color: rgb(250, 241, 250);
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controlsection {
+    height: 100%;
+    width: 100%;
+}
+
+
+.controlbtn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: red;
+opacity: 0.4; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.none {
+    display: none;
+}
+
+.col {
+    background-color: #43d0e0;
+}
+
+.control {
+    height: 80px;
+    width: 250px;
+    background-color: #43d0e0;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.control:hover {
+    background-color: #3dbecc;
+}
+
+.control:active {
+    background-color: #37afbc;
+    transform: scale(1.01);
+    color: azure;
+}
+
+#table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#table th {
+
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+#table td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.pannel{
+    max-height: max-content;
+    width: 100%;
+}
+.screen {
+    width: 100%;
+    height: 100%;
+    /* background-color: #30c2c2; */
+    background-image: linear-gradient(135deg, #1cdaca 10%, #30a1e8 100%);
+    border-radius: 50px 0px 0px 50px;
+}
+
+.heading {
+    height: 50px;
+    padding: 12px 0px 0px 60px;
+    display: flex;
+    color: #F5B70F;
+    align-items: end;
+    font-size: 30px;
+}
+
+.heading h2 {
+    text-shadow: 2px 2px 1px #138282;
+}
+
+.meters {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.meter-box {
+    background-color: orange;
+    height: 150px;
+    width: 270px;
+    border-radius: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.count {
+    height: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.unitName {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.unit {
+    text-align: center;
+    margin: 0px 0px 4px 4px;
+}
+
+.firstsection {
+    width: 36%;
+}
+
+.vector{
+    display: flex;
+    justify-content: center;
+}
+
+.chart-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #F5B70F; */
+    height: calc(100vh - 243px);
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.chart {
+    width: 70%;
+    height: 80%;
+}
+
+.startsection {
+    width: 67vw;
+    height: 75vh;
+    /* background-color: red; */
+    background-image: linear-gradient(135deg, #39dadf 10%, #7f7ff5 100%);
+    position: absolute;
+    z-index: 1;
+    left: 18%;
+    top: 10%;
+    border-radius: 25px;
+}
+
+.start{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.instruction {
+    font-size: 22px;
+    padding-left: 100px;
+    width: 60%;
+}
+
+.stbtn{
+    background-color: orange;
+  }
+  .stbtn:hover{
+    background-color: rgb(218, 142, 3);
+  }
+  .stbtn:active{
+    background-color: orange;
+  }
+
+
+/* svg {
+    position: absolute;
+    left: 40%;
+    top: 35%;
+} */

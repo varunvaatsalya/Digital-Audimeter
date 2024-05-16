@@ -13,7 +13,7 @@ function ProfCtrl(props) {
       <div className="account-Btn">
         <div className="profile">
           <div className="userimg">  
-            <img src="/audioUI/IET Josh logo.png" alt="err" />
+            <img src="/profile.jpg" alt="err" />
           </div>
           <div className="username">User Name</div>
           <div className="useragegender">

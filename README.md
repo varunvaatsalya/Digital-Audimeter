@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# [Digital Audiometer - Web Version](https://digital-audimeter.vercel.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This project is a web-based digital audiometry platform developed as part of **SIH 2023**. It helps users assess their hearing ability by generating audio samples at different frequencies and intensities.
 
-In the project directory, you can run:
+### Table of Contents
+- [How to Use](#how-to-use)
+- [Audiometer Functionality](#audiometer-functionality)
+- [Left and Right Ear Frequency Testing](#left-and-right-ear-frequency-testing)
+- [Results](#results)
+- [React Native Version](#react-native-version)
 
-### `npm start`
+## How to Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+On the first page, you will find a simple guide on how to perform the hearing test and interact with the platform.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Instruction Page](public/instruction.png)
 
-### `npm test`
+## Audiometer Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The second page contains the core audiometry functionality where users with hearing impairments can input their hearing responses to the audio samples.
 
-### `npm run build`
+![Audiometer Page](public/audiometer.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Left and Right Ear Frequency Testing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The audiometer allows users to test their hearing ability in **both ears** independently by generating audio samples at different frequencies for the left and right ear. During the test, the user will hear sound samples at various frequencies in one ear at a time. They can input their response based on their perception of the sound.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Below are examples of frequency testing for the left and right ear:
 
-### `npm run eject`
+- **Left Ear Sample at 1000 Hz**:
+  ![Left Ear 1000 Hz](public/l1000.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Right Ear Sample at 800 Hz**:
+  ![Right Ear 800 Hz](public/r800.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+These tests help to determine if the user has a hearing loss in one ear or both, and at which frequencies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Results
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+After completing the test, the results page will generate an audiogram, showing the user's hearing sensitivity at various frequencies.
 
-## Learn More
+![Results Page](public/result.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## React Native Version
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Check out the [React Native Version of this project](https://github.com/your-react-native-repo-link) for mobile users.

@@ -10,6 +10,16 @@ This project is a web-based digital audiometry platform developed as part of **S
 - [Results](#results)
 - [React Native Version](#react-native-version)
 
+## App Version
+
+For App users, check out the [App Version of this project](https://github.com/varunvaatsalya/audiometer-app):
+
+<p align="center">
+  <a href="https://github.com/varunvaatsalya/audiometer-app">
+    <img src="public/audiometer-app.png" alt="App Version" width="150"/>
+  </a>
+</p>
+
 ## How to Use
 
 On the first page, you will find a simple guide on how to perform the hearing test and interact with the platform.
@@ -44,4 +54,4 @@ After completing the test, the results page will generate an audiogram, showing 
 
 ## React Native Version
 
-Check out the [React Native Version of this project](https://github.com/your-react-native-repo-link) for mobile users.
+Check out the [React Native Version of this project](https://github.com/varunvaatsalya/audiometer-app) for mobile users.
